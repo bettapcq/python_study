@@ -1,8 +1,10 @@
-numbers_list = [1, 3, 2, 5, 8, 4, 6]
+numbers_list = [1, 7, 3, 2, 5, 8, 4, 6]
+
 
 
 def find_pairs_with_sum(lista, target):
     pairs_list = []
+    
     for n in lista:
         for y in lista:
             if n + y == target:
@@ -22,6 +24,6 @@ def find_pairs_with_sum_improved(lista, target):
     return pairs_list
 
 
-target_sum_pairs = find_pairs_with_sum_improved(numbers_list, 10)
+target_sum_pairs = find_pairs_with_sum_improved(numbers_list, 11)
 
 print(target_sum_pairs)
