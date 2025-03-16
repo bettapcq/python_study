@@ -1,5 +1,7 @@
 from math import exp, sqrt
 
+
+
 command = 0
 end_number = -1
 
