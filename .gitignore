@@ -186,3 +186,5 @@ fabric.properties
 
 *.xml
 *.iml
+.idea
+.idea/**
